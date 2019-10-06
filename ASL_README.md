@@ -20,29 +20,35 @@ Google Translate and other similar machine translation engines perform fairly we
 
 While we can't easily replicate the sophistication of a tool like Google Translate, we can attempt to provide a rudimentary tool that will leverage the power of neural networks as well.  Since sign language consists of visual gestures, we can use images (and perhaps in the future video segments) to train and create a predictive algorithm; in essence this a classification task with the goal of outputting a letter of the alphabet corresponding to an image input.  While this is only a small step towards being able to "translate" sign language, it can be an effective building block for new students to understand the ASL alphabet and to begin to translate short segments - this can later be extrapolated to larger components such as words and even full sentences.
 
-## Objective
+## Introduction
 
-For this project, I'll be working with image datasets consisting of American Sign Language alphabet letters.  Each image contains a person's hand formulating the corresponding alphabet letter against varied backgrounds.    
+In this project, I'll be working with image datasets consisting of American Sign Language alphabet letters.  Each image contains a person's hand formulating the corresponding alphabet letter against varied backgrounds.  The objective is to build a CNN that can accurately classify each image as a letter of the alphabet.
 
 ## Challenges
-* Computationally expensive
-* Determining network architecture
-* Achieving acceptable accuracy
+* Computational expense 
+* Finding the "right" model architecture
+* Reproducible results
 
 ## Methodology
 
-* Load and preprocess the data
-* Visualize the data and analyze the distribution
-* Train and optimize convolutional neural networks to perform the classification task
-* Evaluate performance
+* Loading and inspecting the data
+* Building functions for repetitive tasks
+* Optimizing and tuning model architecture
+* Modeling, modeling, modeling...
+* Evaluation and comparison of results
 
 ## Findings
 
-* We were able to classify the test dataset ("real-world" images) with about 40% accuracy, which is a substantial improvement on randomly guessing.
-* A pre-trained network and a CNN built-from-scratch (that was tuned through iterative processes) performed roughly the same. 
+* Our chosen network classified the unseen "real-world" data with about 40% accuracy
+
 
 
 ## Future Work
 
+* With additional time and resources, vast improvement can likely be achieved via:
 
-* With additional time and resources, more sophisticated networks can be trained to significantly increase the classification performance.  Traning on a diverse image dataset would make the network much more robust.
+    * a more diverse and robust image dataset
+    * additional experimentation with tuning model parameters
+    
+    
+<img src='sign_language_photo_A.png'>
