@@ -51,4 +51,4 @@ In this project, I'll be working with image datasets consisting of American Sign
     * additional experimentation with tuning model parameters
     
     
-<img src='sign_language_photo_A.png'>
+<img src='php.php.jpeg'>
